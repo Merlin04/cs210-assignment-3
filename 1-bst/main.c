@@ -92,6 +92,7 @@ U8 remove_val(BST* bst, I32 val) {
     }
 
     free(node);
+    bst->size--;
     return 1;
 }
 
